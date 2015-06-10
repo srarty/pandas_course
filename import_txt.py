@@ -1,3 +1,9 @@
+%matplotlib inline
+import sys
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 df = pd.read_csv('/Users/user/my_file.txt', skiprows = 2, header = None, delimiter = "\t")
 df.head()
 
